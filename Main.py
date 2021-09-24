@@ -34,7 +34,7 @@ arrival_series = pd.to_datetime(df['Scheduled arrival time'])
 
 # Adding flight duration column
 
-df['Flight duration'] = [abs(x) for x in (departure_series - arrival_series).astype('timedelta64[h]')]
+df['Flight duration'] = [abs(x).total_seconds() / 3600.0 for x in (departure_series - arrival_series)]
 
 # Expanding Departure timestamps
 
