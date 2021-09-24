@@ -3,7 +3,7 @@ Flight delay estimation using Machine learning - ML (F21)
 
 In this project, we try to solve the task of flight delay estimation using
 Machine learning. Our dataset contains (Departure Airport, Scheduled departure time, Destination Airport, Scheduled arrival time, Delay (in minutes)).
-Since flight delays are not so frequent, our dataset is highly unbalanced and also lack the most important feature i-e: Weather condition. Our pipeline contains:
+Since flight delays are not so frequent, our dataset is highly unbalanced and also lack the most important feature i.e. Weather condition. Our pipeline contains:
 
 * Feature Engineering
 * Outliers Removal
